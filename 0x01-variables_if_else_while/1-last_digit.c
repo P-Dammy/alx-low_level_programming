@@ -4,7 +4,7 @@
 /**
 * main - program will assign a random number to the variable
 * n each time it is executed.
-* DEscription: This program will assign a random number to the 
+* DEscription: This program will assign a random number to the
 * variable n each time is executed.
 * Return: 0
 */
