@@ -3,7 +3,6 @@
 /**
  * _abs - Returns the absolute value of a number.
  * @n: THe number to be printed
- * @r: the absolute value of n if negative
  * Return: Returns the absolute value of n
  */
 
