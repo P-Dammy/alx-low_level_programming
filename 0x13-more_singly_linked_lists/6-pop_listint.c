@@ -5,7 +5,7 @@
  * @head: pointer to the head of the list
  *
  * Return: head nodes's data (n) or
- * 	0 - if the liked list is empty
+ *	0 - if the liked list is empty
  */
 int pop_listint(listint_t **head)
 {
@@ -19,6 +19,5 @@ int pop_listint(listint_t **head)
 
 	*head = temp->next;
 	n = temp->n;
-	free(temp);
 	return (n);
 }
