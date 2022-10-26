@@ -60,7 +60,7 @@ size_t free_listint_safe(const listint_t **h)
 		}
 
 		curr = *h;
-		*h = *h->next;
+		*h = (*h)->next;
 		free(curr);
 		nnodes++;
 	}
