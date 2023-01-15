@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabetx10 - prints all alphabets
+ * print_alphabet_x10 - prints all alphabets
  * Return: Always 0
  */
 
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 	char letter;
 	int i = 0;
