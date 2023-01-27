@@ -16,7 +16,10 @@ int i = 0;
 
 while (s1[1] != '\0' && s2[i] != '\0')
 {
+if (si[i] != s2[i])
+{
 return (s1[i] - s2[i]);
+}
 i++;
 }
 return (0);
